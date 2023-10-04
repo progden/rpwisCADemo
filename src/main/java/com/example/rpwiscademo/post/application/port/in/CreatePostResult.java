@@ -1,5 +1,6 @@
 package com.example.rpwiscademo.post.application.port.in;
 
+import com.example.rpwiscademo.post.domain.Post;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -8,5 +9,5 @@ import lombok.Data;
 public class CreatePostResult {
     private String result;
     private String message;
-    private String postId;
+    private Post post;
 }

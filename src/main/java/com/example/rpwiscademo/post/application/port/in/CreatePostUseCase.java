@@ -1,5 +1,7 @@
 package com.example.rpwiscademo.post.application.port.in;
 
+import com.example.rpwiscademo.post.domain.Post;
+
 public interface CreatePostUseCase {
-    CreatePostResult createPost(String title, String content, String userId);
+    CreatePostResult createPost(Post post) throws InvalidPostException;
 }
