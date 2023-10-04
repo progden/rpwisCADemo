@@ -1,7 +1,7 @@
-package com.example.rpwiscademo.controller;
+package com.example.rpwiscademo.post.adaptor.in;
 
-import com.example.rpwiscademo.service.PostService;
-import com.example.rpwiscademo.service.model.CreatePostResult;
+import com.example.rpwiscademo.post.application.port.in.CreatePostUseCase;
+import com.example.rpwiscademo.post.application.port.in.CreatePostResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PostController {
 
     @Autowired
-    private PostService service;
+    private CreatePostUseCase service;
 
     @GetMapping("/post/create")
     public CreatePostResult createPost() {

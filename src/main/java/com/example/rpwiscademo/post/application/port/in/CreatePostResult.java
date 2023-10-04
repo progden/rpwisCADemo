@@ -1,4 +1,4 @@
-package com.example.rpwiscademo.service.model;
+package com.example.rpwiscademo.post.application.port.in;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

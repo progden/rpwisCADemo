@@ -1,4 +1,4 @@
-package com.example.rpwiscademo.util;
+package com.example.rpwiscademo.post.adaptor.out;
 
 import org.springframework.stereotype.Repository;
 

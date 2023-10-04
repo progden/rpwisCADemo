@@ -1,4 +1,4 @@
-package com.example.rpwiscademo.dao;
+package com.example.rpwiscademo.post.adaptor.out;
 
 public class PostDao {
     public String savePost(PostDBO postDBO) {
